@@ -124,11 +124,11 @@ const App = ({ signOut }) => {
     <Button variation="link" onClick={() => deleteNote(note)}>
       Delete note
     </Button>
-  </Flex>
-))}
-      </View>
-      <Button onClick={signOut}>Sign Out</Button>
-    </View>
+    </Flex>
+    ))}
+   </View>
+   <Button onClick={signOut}>Sign Out</Button>
+  </View>
   );
 };
 
